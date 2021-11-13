@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact to ifeanytidev</title>
+  <meta name="description" content="my study block project .">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Contact to ifeanyidev">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="pepe.info">
+  <meta property="og:image" content="img/portrait.jpg">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+  <header>
+    <h1>Here is the way to contact ifeanyidev.</h1>
+  </header>
+  <div id="wrapper" class="flex three-600">
+    <aside class="third-600 full">
+      <a href="index.html">Home page</a>
+      <a href="mailto:xokwi001@studenti.czu.cz ">Email me.</a>
+    </aside>
+    <main class="full two-third-600">
+      <form>
+          <label>
+              message
+              <textarea placeholder="Text of message for ifeanyidev" name="message" onkeyup="enableBtn()"></textarea>
+          </label>
+          <label>
+              nick
+              <input placeholder="Your nick" name="nick" type="text"  onkeyup="enableBtn()" />
+          </label>
+          <button disabled="disabled" id="post-btn">Post</button>
+      </form>
+    </main>  
+  </div>
